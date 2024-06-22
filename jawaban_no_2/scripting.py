@@ -26,4 +26,4 @@ total_sales_per_branch = df.groupby('branch')['total'].sum().reset_index()
 # simpan dengan file baru CSV
 total_sales_per_branch.to_csv('data_csv/total_sales_per_branch.csv', index=False)
 
-print("Pembersihan dan agregasi data selesai. Hasilnya disimpan dalam file 'total_sales_per_branch.csv' ")
+print("Pembersihan dan agregasi data selesai. Hasilnya disimpan dalam folder data_csv file 'total_sales_per_branch.csv' ")
